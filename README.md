@@ -33,6 +33,6 @@ $ npm install
 $ npm run dev
 ```
 ## :link: Demo
-  - <a target="_blank" href="https://react-weather-app-xx.netlify.app/"> Click Here </a> to see and play by yourself a demo of the game.
+  - <a target="_blank" href="https://react-ecommorce-website-x.netlify.app/"> Click Here </a> to see and play by yourself a demo of the game.
 
 <br> 
