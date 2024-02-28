@@ -1,6 +1,5 @@
 import React from "react";
 import { BsSearch } from "react-icons/bs";
-import Mode from "./Mode";
 import Link from "next/link";
 import Drawer from "./Drawer";
 import { FaHome } from "react-icons/fa";
@@ -17,7 +16,6 @@ function Navbar() {
       <div className="flex items-center gap-3 mr-80">
   
       </div>
-      <Mode/>
       <div className="flex-none">
         <div className="dropdown dropdown-end">
           <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
