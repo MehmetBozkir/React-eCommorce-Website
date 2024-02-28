@@ -21,7 +21,7 @@ function page() {
             </div>
             <h1 className="text-5xl font-bold">Trouble logging in?</h1>
             <p className="py-6">
-              Enter your email, phone, or username and we'll send you a link to
+              Enter your email, phone, or username and well send you a link to
               get back into your account.
             </p>
 
