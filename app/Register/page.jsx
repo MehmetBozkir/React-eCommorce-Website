@@ -17,7 +17,7 @@ function page() {
     <div className="text-center lg:text-left">
       <h1 className="text-5xl font-bold">Register now!</h1>
       <p className="py-6">
-Welcome again, pleasant shopping. I would be very happy if you report any deficiencies you see on this site as issues via Git. After all, I'm new to you.</p>
+Welcome again, pleasant shopping. I would be very happy if you report any deficiencies you see on this site as issues via Git. After all, I am new to you.</p>
     </div>
     <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100 bg-opacity-40">
       <form className="card-body">
