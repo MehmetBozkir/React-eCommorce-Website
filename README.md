@@ -9,7 +9,7 @@ A eCommorce Website Via Api | Reactjs, Nextjs, FakeStore Api, Axios ,Tailwindcss
 <br> 
   
   :wrench: Features 
-  ------------------------
+  -------------------------
 
   
 API testing via Axios.
