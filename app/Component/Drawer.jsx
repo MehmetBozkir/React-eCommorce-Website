@@ -46,7 +46,7 @@ function Drawer() {
           </div>
           {shopdata.map((product) => (
             <div key={uuidv4()}>
-              <Link href="/Login">
+               <Link href={`/Category/${product}`}>
                 <div className="btn drawer-button">{product}</div>
               </Link>
             </div>
