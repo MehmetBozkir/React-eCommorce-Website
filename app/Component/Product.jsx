@@ -9,7 +9,9 @@ import toast, { Toaster } from "react-hot-toast";
 import { IoSearch } from "react-icons/io5";
 import Link from "next/link";
 
-const notify = () => toast.success("Product Added!");
+const notify = () => toast.success("Product Added!" ,   {
+  duration: 6000,
+}) ;
 
 function Product() {
   const [shopdata, setShopData] = useState([]);
@@ -152,9 +154,10 @@ function Product() {
                   <button
                     onClick={() => {
                       const updatedCounts = { ...productCounts };
-                      updatedCounts[Product.id] =
-                        (updatedCounts[Product.id] || 0) + 1;
-                      setProductCounts(updatedCounts);
+                      updatedCounts[Product.id] = (updatedCounts[Product.id] || 0) + 1;
+                      notify();
+                      setProductCounts(updatedCounts)
+                      
                     }}
                     class="btn btn-primary"
                   >
