@@ -39,7 +39,7 @@ function Product() {
   }
 
   return (
-    <div>
+    <div className="bg-indigo-200 ">
       <div className="flex justify-center ">
         <input
           type="text"
@@ -51,7 +51,7 @@ function Product() {
           <IoSearch />
         </div>
       </div>
-      <div class="grid grid-cols-4 gap-5 ">
+      <div class="grid grid-cols-4 gap-5 ml-48 mr-20 ">
         {shopdata
           .filter((Product) => {
             return searchh.toLowerCase() === ""
