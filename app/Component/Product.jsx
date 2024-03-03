@@ -33,7 +33,7 @@ function Product() {
   if (loading) {
     return (
       <div className="grid place-items-center">
-        <span className="loading loading-infinity text-white text-center w-6/12"></span>
+        <span className="loading loading-infinity text-primary text-center w-6/12"></span>
       </div>
     );
   }
