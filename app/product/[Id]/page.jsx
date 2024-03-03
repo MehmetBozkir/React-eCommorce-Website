@@ -4,10 +4,9 @@ import Navbar from "../../Component/Navbar";
 import Footer from "../../Component/Footer";
 import axios from "axios";
 import { useState, useEffect } from "react";
-import toast, { Toaster } from "react-hot-toast";
 import { IoPricetagsSharp } from "react-icons/io5";
 
-const notify = () => toast.success("Product Added!");
+
 
 function Page({ params }) {
   const [productData, setProductData] = useState({});
@@ -112,10 +111,6 @@ function Page({ params }) {
                 <IoPricetagsSharp />
                 <p class="ml-2">{productData.price} $</p>
               </div>
-              <button onClick={notify} className="btn btn-primary">
-                ADD TO BASKET
-              </button>
-              <Toaster position="bottom-left" reverseOrder={false} />
             </div>
           </div>
         </div>
