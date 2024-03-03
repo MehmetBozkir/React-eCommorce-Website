@@ -3,8 +3,8 @@ import Product from "./Product";
 
 function Bodys() {
   return (
-    <div className="bg-indigo-200">
-      <div className="ml-48 mr-20">
+    <div>
+      <div>
         <Product />
       </div>
     </div>
