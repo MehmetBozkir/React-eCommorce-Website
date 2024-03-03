@@ -9,7 +9,7 @@ import { IoPricetagsSharp } from "react-icons/io5";
 
 const notify = () => toast.success("Product Added!");
 
-function page({ params }) {
+function Page({ params }) {
   const [productData, setProductData] = useState({});
   const [loading, setLoading] = useState(true);
 
@@ -125,4 +125,4 @@ function page({ params }) {
   );
 }
 
-export default page;
+export default Page;
