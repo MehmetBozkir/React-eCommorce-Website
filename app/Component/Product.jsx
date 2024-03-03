@@ -65,7 +65,7 @@ function Product() {
             >
               <Link href={`/product/${Product.id}`}>
                 <img
-                  className="mx-auto"
+                  className="mx-auto transition duration-300 ease-in-out hover:scale-125 mt-10"
                   src={Product.image}
                   alt={Product.title}
                   width="150"
