@@ -57,6 +57,11 @@ function Page({ params }) {
           <IoSearch />
         </div>
       </div>
+      <div className="mx-auto">
+        <div className="flex flex-col w-full mt-5">
+          <div className="divider divider-primary">{productId}</div>
+        </div>
+      </div>
       <div class="grid grid-cols-4 gap-5 ml-48 mr-20 mb-24">
         {shopdata
           .filter((Product) => {
@@ -86,11 +91,6 @@ function Page({ params }) {
                     <IoPricetagsSharp />
                     <p class="ml-2">{Product.price} $</p>
                   </div>
-
-                  <button onClick={notify} class="btn btn-primary">
-                    Buy Now
-                  </button>
-                  <Toaster position="bottom-left" reverseOrder={false} />
                 </div>
               </div>
             </div>
